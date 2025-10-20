@@ -13,7 +13,7 @@ public class Array {
         int rv = 0;
         System.out.println(arr);
         for (int i= 0; i < arr.length; i++){
-        rv += arr[i];
+            rv += arr[i];
         }
         return rv;
     }
@@ -21,13 +21,14 @@ public class Array {
     // hier wird das größte Element des Arrays gesucht
     public static int arrayMax(int[] arr) {
         int rv = Integer.MIN_VALUE;
-        int max= arr[i]
-        for ( int i= 0; i < arr.length; i++){
-        if (
-        }
+        int max= arr[0];
+        for ( int i= 0; i < arr.length; i++)
+            if (arr[0] > max) {
+                max = arr[i];
+            }
         return rv;
-    }
 
+    }
     // hier wird das kleinste Element des Arrays gesucht
     public static int arrayMin(int[] arr) {
         int rv = Integer.MAX_VALUE;
