@@ -22,7 +22,7 @@ public class Array {
     public static int arrayMax(int[] arr) {
         int rv = Integer.MIN_VALUE;
         for ( int i= 0; i < arr.length; i++){
-            if (arr[i] < rv) {
+            if (arr[i] > rv) {
                 rv= arr[i];
             }
         }
@@ -33,11 +33,20 @@ public class Array {
     // hier wird das kleinste Element des Arrays gesucht
     public static int arrayMin(int[] arr) {
         int rv = Integer.MAX_VALUE;
+        for ( int i= 0; i < arr.length; i++){
+            if (arr[i] < rv) {
+                rv= arr[i];
+            }
+        }
         return rv;
     }
 
     // gib ein neues Array zurück, aber in der umgedrehten Reihenfolge!
     public static int[] toReversed(int[] arg) {
         return new int[arg.length];
+        for (int i = 0; i < arr.length; i++){
+            if(){
+            }
+        }
     }
 }
