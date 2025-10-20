@@ -11,6 +11,8 @@ public class Array {
     // übergebenen int Array
     public static int arraySum(int[] arr) {
         int rv = 0;
+        System.out.println(arr);
+        for (int 
         return rv;
     }
 
