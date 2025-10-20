@@ -12,7 +12,9 @@ public class Array {
     public static int arraySum(int[] arr) {
         int rv = 0;
         System.out.println(arr);
-        for (int 
+        for (int i= 0; i < int[]; i++){
+        
+        }
         return rv;
     }
 
