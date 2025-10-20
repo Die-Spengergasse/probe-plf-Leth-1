@@ -12,8 +12,8 @@ public class Array {
     public static int arraySum(int[] arr) {
         int rv = 0;
         System.out.println(arr);
-        for (int i= 0; i < int[]; i++){
-        
+        for (int i= 0; i < arr.length; i++){
+        rv += arr[i];
         }
         return rv;
     }
@@ -21,6 +21,7 @@ public class Array {
     // hier wird das größte Element des Arrays gesucht
     public static int arrayMax(int[] arr) {
         int rv = Integer.MIN_VALUE;
+        for ( int i= 0; i < arr.
         return rv;
     }
 
